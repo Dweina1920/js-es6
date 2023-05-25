@@ -12,3 +12,7 @@ function actualizarContador(valor) {
 }
 
 console.log(actualizarContador(1)); //2 
+
+const actualizarContadorDos = (valor) => valor + 1;
+
+console.log(actualizarContadorDos(3))
